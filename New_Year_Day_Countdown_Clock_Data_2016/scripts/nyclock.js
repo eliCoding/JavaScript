@@ -1,12 +1,7 @@
 // JavaScript source code for new year Clock Web Page
-/*1.showDate() - returns the currunt date in the format mm/dd/yyyy
- * 2. showTime() -  returns the currunt time in the format hh;mm;ss
- * 3.calcDays() - returns the currunt date and january 1st of the next year
- * 4. 
- * 
- * 
- * 
- * 
+/* 1. showDate() - returns the currunt date in the format mm/dd/yyyy
+ * 2. showTime() -  returns the currunt time in the format hh:mm:ss
+ * 3. calcDays() - returns the currunt date and january 1st of the next year 
  */
 //showDate() - return the currunt date in the format mm/dd/yyy 
 function showDate(dateObj) {
