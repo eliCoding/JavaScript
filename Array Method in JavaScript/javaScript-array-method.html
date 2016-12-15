@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Java Script Array method</title>
+    <script type="text/javascript">
+        //create the month array
+        var monthName;
+        monthName = new Array(
+            "January", "February", " March", "April", "May", " June", " July", " August", "September", "October", "November", "December"
+            );
+       
+        //return the number of elements in the montchname array
+        document.writeln("The Array size is  " + monthName.length + "elements.");
+        document.writeln("</br>");
+        //display the monthName elements
+        document.writeln("<br/> The otiginal array elements are: ");
+        document.writeln("</br>");
+        for (var count = 0 ; count < monthName.length; count++) {
+            document.writeln(monthName[count]);
+
+        }
+       
+        //reducing the array size to 3
+        monthName.length = 3;
+        //return the number of elements in the monthName array
+        document.writeln("</br>");
+      
+        document.writeln("</br>The array size after reducing the length is: " + monthName.length + " elements.");
+        //reversing the array elements
+        document.writeln("</br>");
+        document.writeln("</br>The reversing array elements are:");
+        monthName.reverse();
+        for (var count = 0 ; count < monthName.length; count++) {
+            document.writeln(monthName[count]);
+
+        }
+        //sorting the array
+        document.writeln("</br>");
+        document.writeln("</br> The sorting array elements: ");
+        var numArray = [3, 45, 1234, 24];
+        document.writeln("</br> Sorting Numerical Values " + numArray.sort(numSort));
+
+        // creating the numSort() compare function s
+
+        function numSort(num1, num2) {
+            return num1 - num2;
+        }
+
+        //resortin the size of monthName
+        monthName = new Array(
+           "January", "February", " March", "April", "May", " june", " july", " August", "September", "October", "November", "December"
+           );
+        //extract summer months from monthName array
+        //array-name .method_name
+        //array_name.slice(start,stop)
+        var summerMonth = monthName.slice(5, 8);
+        document.writeln("</br>");
+        document.writeln("</br> Summer months are: " + summerMonth);
+
+        //extract and remove winter months from monthName array it means at position zero remove 3 items jan,feb,march!!!
+        var winterMonth = monthName.splice(0, 3);
+        document.writeln("</br>");
+        document.writeln("</br> Winter months are " + winterMonth);
+        
+        //original array
+        document.writeln("</br>");
+        document.writeln("</br> the original array elements after using splice method is:</br></br> ");
+        for (var count = 0 ; count < monthName.length; count++) {
+            document.writeln(monthName[count]);
+        }
+
+        //insertin array elemets
+        var alpha = new Array("a", "b", "c", "d");
+
+        //adding new items to the end of the array alpha
+        document.writeln("</br>");
+        alpha.push("e", "f");
+        document.writeln("</br> we are adding the ' e ' and ' f ' to the array: ");
+        for (var count = 0 ; count < alpha.length; count++) {
+            document.writeln(alpha[count]);
+        }
+
+        //removing the last item from alpha array
+        document.writeln("</br>");
+        alpha.pop("f");
+        document.writeln("</br> we are removing the ' f ' to the array: ");
+        for (var count = 0 ; count < alpha.length; count++) {
+            document.writeln(alpha[count]);
+        }
+        //removing the first item from alpha array
+        document.writeln("</br>");
+        alpha.shift("a");
+        document.writeln("</br> we are removing the  ' a ' to the array: ");
+        for (var count = 0 ; count < alpha.length; count++) {
+            document.writeln(alpha[count]);
+        }
+
+        //adding an  item to the first of alpha array
+        document.writeln("</br>");
+        alpha.unshift("x","y", "z");
+        document.writeln("</br> we are adding  the first  'x','y', 'z' to the array: ");
+        for (var count = 0 ; count < alpha.length; count++) {
+            document.writeln(alpha[count]);
+        }
+
+        //joining arrays
+        var array1 = new Array("A", "B" , "C");
+        var array2 = new Array("D", "F");
+        var array3;
+        array3 = array1.concat(array2);
+       document.writeln("</br>");
+        document.writeln("</br> we are adding  the  two arrays: ");
+        for (var count = 0 ; count < array3.length; count++) {
+            document.writeln(array3[count]);
+        }
+
+        //joining thre ARRAYS 
+        document.writeln("</br>");
+        var array4 = [1, 2, 3];
+        array3 = array1.concat(array2, array4);
+        document.writeln("</br>");
+        document.writeln("</br> we are adding  the  three arrays: ");
+        for (var count = 0 ; count < array3.length; count++) {
+            document.writeln(array3[count]);
+        }
+
+        //joining element of an array as a single string    // join and split are oppisite
+        document.writeln("</br>");
+        document.writeln("</br>");
+        var strArray = new Array("Alpha", "Beta", "Gamma");
+        document.writeln(strArray.join(" and "));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
