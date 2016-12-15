@@ -1,0 +1,247 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*
+   JavaScript & AJAX Assignment 01
+   Developed By: Elmira Amanollahi
+   Developed Date:  14/12/2016
+   Filename: je.css
+   This file contains styles used in the worldTime.html file.
+*/
+
+ body{
+     border:2px groove lightgray;
+     width:670px;
+     height:850px;
+     margin-left:30%;
+     padding-left:6px;
+     padding-right:10px;
+     font-family:Arial, Helvetica, sans-serif; 
+ }
+table {
+    table-layout:fixed;
+    font-family:Arial, Helvetica, sans-serif; 
+    
+ }
+  
+img {
+    width:678px;
+
+}
+
+#headbar {
+   color:blue; 
+   letter-spacing: 5px;
+   font-family:Arial, Helvetica, sans-serif; 
+}
+h2 {
+    text-indent:40px;
+}
+.cssValidator {
+    position:absolute;
+    margin-top:37.2%;
+    padding-left:5.4%;
+
+}
+.htmlValidator {
+     position:absolute;
+    margin-top:38%;
+     padding-left:0;
+
+
+}
+
+#timemap {   
+   
+    position:absolute;
+    margin-bottom: 5%;
+  
+}
+#place1{
+
+    position:absolute;
+    top:30%;
+    left:20%;
+    background-color: lightgray;
+    text-align:center;
+     font-family:Arial,Helvetica, sans-serif; 
+}
+
+#place2{
+
+    position:absolute;
+    top:20%;
+    left:47%;
+    background-color: white;
+    text-align:center;
+    
+       font-family:Arial, Helvetica, sans-serif; 
+}
+#place3{
+
+    position:absolute;
+    top:25%;
+    left:27%;
+    background-color:yellow;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+#place4{
+
+    position:absolute;
+    top:28%;
+    left:3%;
+    background-color: aqua;
+    text-align:center; 
+    font-family:Arial, Helvetica, sans-serif; 
+}
+#place5{
+
+    position:absolute;
+    top:48%;
+    left:85%;
+    background-color: lightpink;
+    text-align:center;
+   
+       font-family:Arial, Helvetica, sans-serif; 
+}
+#place6{
+
+    position:absolute;
+    top:27%;
+    left:83%;
+    background-color:khaki;
+    text-align:center;
+   
+      font-family:Arial, Helvetica, sans-serif; 
+}
+#name1 {
+    border:1px solid black;
+    background-color:lightgray; 
+    padding-right:  1.5em;
+    padding-left:  1.5em;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+     font-size:15px; 
+      letter-spacing: 2px;
+      font-weight:normal;
+
+   
+
+}
+#name2 {
+    border:1px solid black;
+     background-color: white;
+      padding-right: 1.5em;
+    padding-left:  1.5em; 
+       font-family:Arial, Helvetica, sans-serif; 
+        font-size:15px; 
+      letter-spacing: 2px;
+      font-weight:normal;
+
+}
+#name3 {
+    border:1px solid black;
+     background-color:yellow;
+      padding-right:  1.5em;
+    padding-left: 1.5em;
+      font-family:Arial, Helvetica, sans-serif; 
+       font-size:15px; 
+      letter-spacing: 2px;
+      font-weight:normal;
+
+}
+#name4 {
+    border:1px solid black;
+     background-color:aqua;
+      padding-right: 1.6em;
+    padding-left:  1.6em; 
+      font-family:Arial, Helvetica, sans-serif; 
+       font-size:15px; 
+      letter-spacing: 2px;
+      font-weight:normal;
+
+}
+#name5 {
+    border:1px solid black;
+     background-color:lightpink;
+      padding-right:1.5em;
+    padding-left: 1.5em; 
+       font-family:Arial, Helvetica, sans-serif; 
+        font-size:15px; 
+      letter-spacing: 2px;
+      font-weight:normal;
+
+}
+#name6 {
+    border:1px solid black;
+    background-color:khaki;
+     padding-right:  1.5em;
+    padding-left:1.5em; 
+      font-family:Arial, Helvetica, sans-serif; 
+       font-size:15px; 
+      letter-spacing: 2px;
+      font-weight:normal;
+
+}
+#NY_Office {
+ border:1px solid black;
+  background-color:yellow; 
+   font-family:Arial, Helvetica, sans-serif; 
+  font-size:13px;
+  padding-right:1.0em;
+  padding-left:8px;
+  text-align:left;
+  letter-spacing:0.25px;
+}
+#Seattle_Office  {
+    border:1px solid black;
+    background-color:aqua; 
+      font-family:Arial, Helvetica, sans-serif; 
+    font-size:13px;
+    padding-right:1.0em;
+    text-align:left;
+     padding-left:8px;
+      letter-spacing:0.25px;
+
+}
+#Houston_Office {
+    border:1px solid black;
+    background-color:lightgray;
+      font-family:Arial, Helvetica, sans-serif; 
+    font-size:13px;
+     padding-right:0.3em;
+      text-align:left;
+       padding-left:8px;
+        letter-spacing:0.25px;
+}
+#London_Office {
+    border:1px solid black;
+    background-color:white; 
+       font-family:Arial, Helvetica, sans-serif; 
+    font-size:13px;
+     padding-right:1.0em;
+      text-align:left;
+       padding-left:8px;
+        letter-spacing:0.25px;
+}
+#Tokyo_Office {
+    border:1px solid black;
+    background-color:khaki;
+       font-family:Arial, Helvetica, sans-serif;  
+    font-size:13px;
+    padding-right:0.5em;
+    text-align:left;
+     letter-spacing:0.25px;
+     padding-left:8px;
+      
+}
+#Sydney_Office {
+    border:1px solid black;
+    background-color:lightpink; 
+      font-family:Arial, Helvetica, sans-serif; 
+    font-size:13px;
+    padding-right:1.0em;
+    text-align:left;
+     padding-left:8px;
+      letter-spacing:0.25px;
+}
