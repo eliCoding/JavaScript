@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Time Spent</title>
+    <style>
+       body {
+           background-color:red;
+
+       } 
+    </style>
+    <script type="text/javascript">
+        var seconds;
+        seconds = 0;
+        //create the updateTime() function 
+        function updateTime() {
+            seconds++;
+            soFar.innerHTML = seconds;
+        }
+        //create the startTimer() function
+        function startTimer() {
+            window.setInterval('updateTime()', 1000);
+        }
+        
+         function changeBG() {
+            var inputColor = window.prompt("please choose a color: ");
+            document.body.style.backgroundColor = inputColor;
+        }
+
+    </script>
+</head>
+<body onload="startTimer();changeBG()" >
+    <p>
+        Seconds you have spent viewing this page so far:
+        <a id="soFar" style="color:#f00; font-size:2em">0</a>
+    </p>
+
+</body>
+</html>

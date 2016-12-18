@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Mouse Out and Over event</title>
+    <style type="text/css">
+        .outClass {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:12px;
+            color:#fff;
+            background-color:#00f;
+        }
+        .overClass {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:12px;
+            color:#00f;
+            background-color:#fff;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function rollOn() {
+            if (window.event.srcElement.className == "outClass") {
+                window.event.srcElement.className = "overClass"
+            }
+        }
+        function rollOff() {
+            if (window.event.srcElement.className == "overClass") {
+                window.event.srcElement.className = "outClass"
+            }
+        }
+        //object_name.event_name = event_handler
+        document.onmouseover = rollOn;
+        document.onmouseout = rollOff;
+    </script>
+</head>
+<body>
+    <p>
+        <span class="outClass">Home&nbsp;</span>
+        <span class="outClass">products&nbsp;</span>
+        <span class="outClass">Downloads&nbsp;</span>
+        <span class="outClass">About Us&nbsp;</span>
+        <span class="outClass">Contact&nbsp;</span>
+      
+    </p>
+</body>
+</html>
