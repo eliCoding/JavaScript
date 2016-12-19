@@ -1,0 +1,15 @@
+﻿body
+{ 
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size:12px;
+}
+p{
+    color:#f00;
+    border:1px solid #f00;
+    padding:5px;
+    margin:5px;
+}
+p.FrameworkLoaded {
+    color:#075f07;
+    border:1px solid #075f07;
+}
