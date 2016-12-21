@@ -1,0 +1,5 @@
+this text was fetched from the server with AJAX (Elmira).
+<figure>
+            <img src="Bird_images/bird_02.jpg" alt="Bird in the forest" title="Bird in the forest" width="200" height="130" >
+            <figcaption>beautiful bird in the forest</figcaption>
+        </figure>
